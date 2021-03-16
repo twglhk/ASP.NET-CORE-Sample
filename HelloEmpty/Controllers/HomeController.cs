@@ -18,7 +18,15 @@ namespace HelloEmpty.Controllers
 
             ViewBag.Noti = "Input message and click summit";
 
-            return View();
+            return View(msg);
+        }
+
+        // POST를 처리하는 index
+        [HttpPost]
+        public IActionResult Index(HelloMessage obj)
+        {
+            ViewBag.Noti = "Message Changed";
+            return View(obj);
         }
     }
 }
