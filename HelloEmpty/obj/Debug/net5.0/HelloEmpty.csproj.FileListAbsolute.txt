@@ -28,8 +28,8 @@ C:\Users\User\source\repos\HelloASP\HelloEmpty\obj\Debug\net5.0\HelloEmpty.Razor
 C:\Users\User\source\repos\HelloASP\HelloEmpty\obj\Debug\net5.0\HelloEmpty.TagHelpers.input.cache
 C:\Users\User\source\repos\HelloASP\HelloEmpty\obj\Debug\net5.0\HelloEmpty.TagHelpers.output.cache
 C:\Users\User\source\repos\HelloASP\HelloEmpty\obj\Debug\net5.0\HelloEmpty.RazorCoreGenerate.cache
-C:\Users\User\source\repos\HelloASP\HelloEmpty\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
-C:\Users\User\source\repos\HelloASP\HelloEmpty\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
 C:\Users\User\source\repos\HelloASP\HelloEmpty\obj\Debug\net5.0\HelloEmpty.RazorTargetAssemblyInfo.cs
 C:\Users\User\source\repos\HelloASP\HelloEmpty\obj\Debug\net5.0\HelloEmpty.Views.pdb
 C:\Users\User\source\repos\HelloASP\HelloEmpty\obj\Debug\net5.0\HelloEmpty.csproj.CopyComplete
+C:\Users\User\source\repos\HelloASP\HelloEmpty\obj\Debug\net5.0\Razor\Pages\Index.cshtml.g.cs
+C:\Users\User\source\repos\HelloASP\HelloEmpty\obj\Debug\net5.0\Razor\Pages\_ViewImports.cshtml.g.cs

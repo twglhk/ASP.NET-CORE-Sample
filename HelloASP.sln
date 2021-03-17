@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloBlazorServer", "HelloB
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloMVC", "HelloMVC\HelloMVC.csproj", "{1E6CCD4A-1479-4D64-B0E2-3DAA86635A08}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloBlazorClient", "HelloBlazorClient\HelloBlazorClient.csproj", "{0A0D2F05-A4EA-434A-86E9-0EFAADB276D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloBlazorClient", "HelloBlazorClient\HelloBlazorClient.csproj", "{0A0D2F05-A4EA-434A-86E9-0EFAADB276D4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
