@@ -23,13 +23,4 @@ C:\Users\User\source\repos\HelloASP\HelloEmpty\obj\Debug\net5.0\HelloEmpty.pdb
 C:\Users\User\source\repos\HelloASP\HelloEmpty\obj\Debug\net5.0\HelloEmpty.genruntimeconfig.cache
 C:\Users\User\source\repos\HelloASP\HelloEmpty\bin\Debug\net5.0\HelloEmpty.Views.dll
 C:\Users\User\source\repos\HelloASP\HelloEmpty\bin\Debug\net5.0\HelloEmpty.Views.pdb
-C:\Users\User\source\repos\HelloASP\HelloEmpty\obj\Debug\net5.0\HelloEmpty.RazorAssemblyInfo.cache
-C:\Users\User\source\repos\HelloASP\HelloEmpty\obj\Debug\net5.0\HelloEmpty.RazorAssemblyInfo.cs
-C:\Users\User\source\repos\HelloASP\HelloEmpty\obj\Debug\net5.0\HelloEmpty.TagHelpers.input.cache
-C:\Users\User\source\repos\HelloASP\HelloEmpty\obj\Debug\net5.0\HelloEmpty.TagHelpers.output.cache
-C:\Users\User\source\repos\HelloASP\HelloEmpty\obj\Debug\net5.0\HelloEmpty.RazorCoreGenerate.cache
-C:\Users\User\source\repos\HelloASP\HelloEmpty\obj\Debug\net5.0\HelloEmpty.RazorTargetAssemblyInfo.cs
-C:\Users\User\source\repos\HelloASP\HelloEmpty\obj\Debug\net5.0\HelloEmpty.Views.pdb
 C:\Users\User\source\repos\HelloASP\HelloEmpty\obj\Debug\net5.0\HelloEmpty.csproj.CopyComplete
-C:\Users\User\source\repos\HelloASP\HelloEmpty\obj\Debug\net5.0\Razor\Pages\Index.cshtml.g.cs
-C:\Users\User\source\repos\HelloASP\HelloEmpty\obj\Debug\net5.0\Razor\Pages\_ViewImports.cshtml.g.cs
