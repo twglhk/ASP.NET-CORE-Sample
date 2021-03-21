@@ -82,7 +82,7 @@ using BlazorApp.Shared;
 #line default
 #line hidden
 #nullable disable
-    [Microsoft.AspNetCore.Components.RouteAttribute("/binding")]
+    [Microsoft.AspNetCore.Components.RouteAttribute("/bindingtest")]
     public partial class Binding : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
