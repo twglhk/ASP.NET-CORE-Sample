@@ -82,6 +82,13 @@ using BlazorApp.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "C:\Users\User\source\repos\HelloASP\BlazorApp\BlazorApp\Pages\Counter.razor"
+using System.Threading;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/counter")]
     public partial class Counter : Microsoft.AspNetCore.Components.ComponentBase
     {
@@ -91,13 +98,25 @@ using BlazorApp.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 9 "C:\Users\User\source\repos\HelloASP\BlazorApp\BlazorApp\Pages\Counter.razor"
+#line 12 "C:\Users\User\source\repos\HelloASP\BlazorApp\BlazorApp\Pages\Counter.razor"
        
     private int currentCount = 0;
 
     private void IncrementCount()
     {
         currentCount++;
+    }
+
+    private void AutoIncrement()
+    {
+        var timer = new Timer(x =>
+        {
+            InvokeAsync(() =>
+            {
+                IncrementCount();
+                StateHasChanged();
+            });
+        }, null, 1000, 1000);
     }
 
 #line default
