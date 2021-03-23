@@ -98,40 +98,29 @@ using BlazorApp.Data;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 36 "C:\Users\User\source\repos\HelloASP\BlazorApp\BlazorApp\Pages\User.razor"
+#line 22 "C:\Users\User\source\repos\HelloASP\BlazorApp\BlazorApp\Pages\User.razor"
        
     List<UserData> _users = new List<UserData>();
+    ShowUser _showUser;
 
     string _inputName;
-    string _btnClass = "btn btn-primary";
-
-    protected override void OnInitialized()
-    {
-        _users.Add(new UserData() { Name = "Humba" });
-        _users.Add(new UserData() { Name = "Ba" });
-        _users.Add(new UserData() { Name = "Gerrard" });
-        RefreshButton();
-    }
 
     void AddUser()
     {
-        _users.Add(new UserData() { Name = _inputName });
+        _showUser.AddUser(new UserData() { Name = _inputName });
+        //_users.Add(new UserData() { Name = _inputName });
         _inputName = "";
-        RefreshButton();
     }
 
     void KickUser(UserData user)
     {
         _users.Remove(user);
-        RefreshButton();
     }
 
-    void RefreshButton()
+    void CallbackTestFunc()
     {
-        if (_users.Count() % 2 == 0)
-            _btnClass = "btn btn-primary";
-        else
-            _btnClass = "btn btn-secondary";
+        _inputName = "CallbackTest";
+        StateHasChanged();
     }
 
 #line default
