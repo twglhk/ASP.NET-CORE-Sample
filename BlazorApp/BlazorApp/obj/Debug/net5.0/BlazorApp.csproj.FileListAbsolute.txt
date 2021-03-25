@@ -62,3 +62,5 @@ C:\Users\User\source\repos\HelloASP\BlazorApp\BlazorApp\obj\Debug\net5.0\RazorDe
 C:\Users\User\source\repos\HelloASP\BlazorApp\BlazorApp\obj\Debug\net5.0\Razor\Pages\User.razor.g.cs
 C:\Users\User\source\repos\HelloASP\BlazorApp\BlazorApp\obj\Debug\net5.0\RazorDeclaration\Pages\ShowUser.razor.g.cs
 C:\Users\User\source\repos\HelloASP\BlazorApp\BlazorApp\obj\Debug\net5.0\Razor\Pages\ShowUser.razor.g.cs
+C:\Users\User\source\repos\HelloASP\BlazorApp\BlazorApp\obj\Debug\net5.0\RazorDeclaration\Pages\TableTemplate.razor.g.cs
+C:\Users\User\source\repos\HelloASP\BlazorApp\BlazorApp\obj\Debug\net5.0\Razor\Pages\TableTemplate.razor.g.cs
