@@ -98,13 +98,11 @@ using System.Threading;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 12 "C:\Users\User\source\repos\HelloASP\BlazorApp\BlazorApp\Pages\Counter.razor"
+#line 14 "C:\Users\User\source\repos\HelloASP\BlazorApp\BlazorApp\Pages\Counter.razor"
        
-    private int currentCount = 0;
-
     private void IncrementCount()
     {
-        currentCount++;
+        CounterState.Count = CounterState.Count + 1;
     }
 
     private void AutoIncrement()
@@ -122,6 +120,7 @@ using System.Threading;
 #line default
 #line hidden
 #nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private BlazorApp.Data.CounterState CounterState { get; set; }
     }
 }
 #pragma warning restore 1591
