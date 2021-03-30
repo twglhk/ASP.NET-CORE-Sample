@@ -4,7 +4,7 @@
 #pragma warning disable 0649
 #pragma warning disable 0169
 
-namespace BlazorApp.Shared
+namespace BlazorApp.Pages
 {
     #line hidden
     using System;
@@ -82,44 +82,13 @@ using BlazorApp.Shared;
 #line default
 #line hidden
 #nullable disable
-    public partial class NavMenu : Microsoft.AspNetCore.Components.ComponentBase, IDisposable
+    public partial class JsInterrop : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
         {
         }
         #pragma warning restore 1998
-#nullable restore
-#line 50 "C:\Users\User\source\repos\HelloASP\BlazorApp\BlazorApp\Shared\NavMenu.razor"
-       
-    private bool collapseNavMenu = true;
-
-    private string NavMenuCssClass => collapseNavMenu ? "collapse" : null;
-
-    private void ToggleNavMenu()
-    {
-        collapseNavMenu = !collapseNavMenu;
-    }
-
-    protected override void OnInitialized()
-    {
-        CounterState.OnStateChanged += onStateChanged;
-    }
-
-    void onStateChanged()
-    {
-        this.StateHasChanged();
-    }
-
-    void IDisposable.Dispose()
-    {
-        CounterState.OnStateChanged -= onStateChanged;
-    }
-
-#line default
-#line hidden
-#nullable disable
-        [global::Microsoft.AspNetCore.Components.InjectAttribute] private BlazorApp.Data.CounterState CounterState { get; set; }
     }
 }
 #pragma warning restore 1591
