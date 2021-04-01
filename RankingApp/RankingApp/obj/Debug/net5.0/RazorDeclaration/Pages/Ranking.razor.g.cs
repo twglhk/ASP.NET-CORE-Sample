@@ -4,7 +4,7 @@
 #pragma warning disable 0649
 #pragma warning disable 0169
 
-namespace RankingApp.Shared
+namespace RankingApp.Pages
 {
     #line hidden
     using System;
@@ -82,7 +82,22 @@ using RankingApp.Shared;
 #line default
 #line hidden
 #nullable disable
-    public partial class NavMenu : Microsoft.AspNetCore.Components.ComponentBase
+#nullable restore
+#line 2 "C:\Users\User\source\repos\HelloASP\RankingApp\RankingApp\Pages\Ranking.razor"
+using RankingApp.Data.Models;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 3 "C:\Users\User\source\repos\HelloASP\RankingApp\RankingApp\Pages\Ranking.razor"
+using RankingApp.Data.Services;
+
+#line default
+#line hidden
+#nullable disable
+    [Microsoft.AspNetCore.Components.RouteAttribute("/ranking")]
+    public partial class Ranking : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -90,20 +105,19 @@ using RankingApp.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 33 "C:\Users\User\source\repos\HelloASP\RankingApp\RankingApp\Shared\NavMenu.razor"
+#line 36 "C:\Users\User\source\repos\HelloASP\RankingApp\RankingApp\Pages\Ranking.razor"
        
-    private bool collapseNavMenu = true;
+    List<GameResult> _gameResults;
 
-    private string NavMenuCssClass => collapseNavMenu ? "collapse" : null;
-
-    private void ToggleNavMenu()
+    protected override async Task OnInitializedAsync()
     {
-        collapseNavMenu = !collapseNavMenu;
+        _gameResults = await RankingService.GetGameResultAsync();
     }
 
 #line default
 #line hidden
 #nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private RankingService RankingService { get; set; }
     }
 }
 #pragma warning restore 1591

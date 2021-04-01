@@ -102,3 +102,5 @@ C:\Users\User\source\repos\HelloASP\RankingApp\RankingApp\obj\Debug\net5.0\Ranki
 C:\Users\User\source\repos\HelloASP\RankingApp\RankingApp\obj\Debug\net5.0\ref\RankingApp.dll
 C:\Users\User\source\repos\HelloASP\RankingApp\RankingApp\obj\Debug\net5.0\RankingApp.pdb
 C:\Users\User\source\repos\HelloASP\RankingApp\RankingApp\obj\Debug\net5.0\RankingApp.genruntimeconfig.cache
+C:\Users\User\source\repos\HelloASP\RankingApp\RankingApp\obj\Debug\net5.0\RazorDeclaration\Pages\Ranking.razor.g.cs
+C:\Users\User\source\repos\HelloASP\RankingApp\RankingApp\obj\Debug\net5.0\Razor\Pages\Ranking.razor.g.cs
