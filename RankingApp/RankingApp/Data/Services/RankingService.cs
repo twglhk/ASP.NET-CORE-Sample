@@ -15,6 +15,17 @@ namespace RankingApp.Data.Services
             _context = context;
         }
 
+        /* CRUD */
+        //Create
+        public Task<GameResult> AddGameResult(GameResult gameResult)
+        {
+            _context.GameResults.Add(gameResult); // memory save
+            _context.SaveChanges(); // DB save
+
+            return Task.FromResult(gameResult);
+        }
+
+        //Read
         public Task<List<GameResult>> GetGameResultAsync()
         {
             // DB에 접근해서 모든 데이터 추출
@@ -23,5 +34,9 @@ namespace RankingApp.Data.Services
                                         .ToList();
             return Task.FromResult(results);
         }
+
+        //Update
+
+        //Delete
     }
 }

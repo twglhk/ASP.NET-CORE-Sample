@@ -105,12 +105,42 @@ using RankingApp.Data.Services;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 36 "C:\Users\User\source\repos\HelloASP\RankingApp\RankingApp\Pages\Ranking.razor"
+#line 76 "C:\Users\User\source\repos\HelloASP\RankingApp\RankingApp\Pages\Ranking.razor"
        
     List<GameResult> _gameResults;
 
+    bool _showPopup;
+    GameResult _gameResult;
+
     protected override async Task OnInitializedAsync()
     {
+        _gameResults = await RankingService.GetGameResultAsync();
+    }
+
+    void AddGameResult()
+    {
+        _showPopup = true;
+        _gameResult = new GameResult() { Id = 0 };  // ID를 사용해 데이터 생성/수정 구분
+    }
+
+    void ClosePopup()
+    {
+        _showPopup = false;
+    }
+
+    async Task SaveGameResult()
+    {
+        if (_gameResult.Id == 0)
+        {
+            // Create
+            _gameResult.Date = DateTime.Now;
+            var result = RankingService.AddGameResult(_gameResult);
+        }
+        else
+        {
+            // Edit
+        }
+
         _gameResults = await RankingService.GetGameResultAsync();
     }
 
