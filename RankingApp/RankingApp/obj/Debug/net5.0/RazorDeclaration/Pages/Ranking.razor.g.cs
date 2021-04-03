@@ -105,7 +105,7 @@ using RankingApp.Data.Services;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 76 "C:\Users\User\source\repos\HelloASP\RankingApp\RankingApp\Pages\Ranking.razor"
+#line 84 "C:\Users\User\source\repos\HelloASP\RankingApp\RankingApp\Pages\Ranking.razor"
        
     List<GameResult> _gameResults;
 
@@ -128,6 +128,19 @@ using RankingApp.Data.Services;
         _showPopup = false;
     }
 
+    void UpdateGameResult(GameResult gameResult)
+    {
+        _showPopup = true;
+        _gameResult = gameResult;
+    }
+
+    async Task DeleteGameResult(GameResult gameResult)
+    {
+        var result = RankingService.DeleteGameResult(gameResult);
+
+        _gameResults = await RankingService.GetGameResultAsync();
+    }
+
     async Task SaveGameResult()
     {
         if (_gameResult.Id == 0)
@@ -139,6 +152,7 @@ using RankingApp.Data.Services;
         else
         {
             // Edit
+            var result = RankingService.UpdateGameResult(_gameResult);
         }
 
         _gameResults = await RankingService.GetGameResultAsync();
