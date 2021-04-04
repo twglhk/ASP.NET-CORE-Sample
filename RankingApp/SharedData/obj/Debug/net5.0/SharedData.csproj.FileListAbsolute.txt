@@ -1,0 +1,12 @@
+C:\Users\User\source\repos\HelloASP\RankingApp\SharedData\bin\Debug\net5.0\SharedData.deps.json
+C:\Users\User\source\repos\HelloASP\RankingApp\SharedData\bin\Debug\net5.0\SharedData.dll
+C:\Users\User\source\repos\HelloASP\RankingApp\SharedData\bin\Debug\net5.0\ref\SharedData.dll
+C:\Users\User\source\repos\HelloASP\RankingApp\SharedData\bin\Debug\net5.0\SharedData.pdb
+C:\Users\User\source\repos\HelloASP\RankingApp\SharedData\obj\Debug\net5.0\SharedData.csprojAssemblyReference.cache
+C:\Users\User\source\repos\HelloASP\RankingApp\SharedData\obj\Debug\net5.0\SharedData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\HelloASP\RankingApp\SharedData\obj\Debug\net5.0\SharedData.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\HelloASP\RankingApp\SharedData\obj\Debug\net5.0\SharedData.AssemblyInfo.cs
+C:\Users\User\source\repos\HelloASP\RankingApp\SharedData\obj\Debug\net5.0\SharedData.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\HelloASP\RankingApp\SharedData\obj\Debug\net5.0\SharedData.dll
+C:\Users\User\source\repos\HelloASP\RankingApp\SharedData\obj\Debug\net5.0\ref\SharedData.dll
+C:\Users\User\source\repos\HelloASP\RankingApp\SharedData\obj\Debug\net5.0\SharedData.pdb
