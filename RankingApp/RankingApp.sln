@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RankingApp", "RankingApp\Ra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApi\WebApi.csproj", "{A5FCF3FA-6C79-46C6-9A9F-E21170B1835D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedData", "SharedData\SharedData.csproj", "{659DF7EC-BC87-454E-8D4E-5E21C48246B9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{A5FCF3FA-6C79-46C6-9A9F-E21170B1835D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A5FCF3FA-6C79-46C6-9A9F-E21170B1835D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A5FCF3FA-6C79-46C6-9A9F-E21170B1835D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{659DF7EC-BC87-454E-8D4E-5E21C48246B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{659DF7EC-BC87-454E-8D4E-5E21C48246B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{659DF7EC-BC87-454E-8D4E-5E21C48246B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{659DF7EC-BC87-454E-8D4E-5E21C48246B9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
