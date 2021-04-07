@@ -43,7 +43,10 @@ namespace RankingApp
             services.AddDatabaseDeveloperPageExceptionFilter();
             services.AddSingleton<WeatherForecastService>();
 
-            services.AddScoped<RankingService>();
+            services.AddHttpClient<RankingService>(c => 
+            {
+                c.BaseAddress = new Uri("https://localhost:44375");
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

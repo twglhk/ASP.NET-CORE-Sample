@@ -84,14 +84,14 @@ using RankingApp.Shared;
 #nullable disable
 #nullable restore
 #line 2 "C:\Users\User\source\repos\HelloASP\RankingApp\RankingApp\Pages\Ranking.razor"
-using RankingApp.Data.Models;
+using RankingApp.Data.Services;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 3 "C:\Users\User\source\repos\HelloASP\RankingApp\RankingApp\Pages\Ranking.razor"
-using RankingApp.Data.Services;
+using SharedData.Models;
 
 #line default
 #line hidden
@@ -147,12 +147,12 @@ using RankingApp.Data.Services;
         {
             // Create
             _gameResult.Date = DateTime.Now;
-            var result = RankingService.AddGameResult(_gameResult);
+            var result = await RankingService.AddGameResult(_gameResult);
         }
         else
         {
             // Edit
-            var result = RankingService.UpdateGameResult(_gameResult);
+            var result = await RankingService.UpdateGameResult(_gameResult);
         }
 
         _showPopup = false;

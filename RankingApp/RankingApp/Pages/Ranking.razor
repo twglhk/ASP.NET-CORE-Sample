@@ -1,6 +1,6 @@
 ﻿@page "/ranking"
-@using RankingApp.Data.Models;
 @using RankingApp.Data.Services;
+@using SharedData.Models;
 
 @inject RankingService RankingService
 
@@ -122,12 +122,12 @@
         {
             // Create
             _gameResult.Date = DateTime.Now;
-            var result = RankingService.AddGameResult(_gameResult);
+            var result = await RankingService.AddGameResult(_gameResult);
         }
         else
         {
             // Edit
-            var result = RankingService.UpdateGameResult(_gameResult);
+            var result = await RankingService.UpdateGameResult(_gameResult);
         }
 
         _showPopup = false;
